@@ -1,0 +1,57 @@
+.image-link img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.image-link img:hover {
+    transform: scale(1.1);
+    filter: grayscale(80%);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Space Mono', Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #444;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.left, .right {
+    display: flex;
+    gap: 15px;
+}
+
+.left a, .right a {
+    font-size: 1rem;
+}
+
